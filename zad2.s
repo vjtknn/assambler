@@ -8,6 +8,6 @@ mov %EDX, %EAX
 
 mul %EBX
 
-mov %EAX, %ECX
+mov %EDX, %ECX
 
 nop

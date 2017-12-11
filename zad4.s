@@ -1,6 +1,6 @@
 .global _start
   .text
-  _start:
+  _ start:
 
 mov $2, %ECX
 mov %ECX, %EAX
