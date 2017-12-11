@@ -7,7 +7,7 @@
 
   sub %ECX, %EDX
 
-  cmp %ECX, %EDX
+  # cmp %ECX, %EDX
 
  jge endif
  neg %EDX
