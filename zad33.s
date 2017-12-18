@@ -2,17 +2,20 @@
   .text
   _start:
 
-mov $2, %EBX
-mov $1, %ECX
 
+mov $19, %ECX
+mov $0, %EBX
 mov $1, %EAX
 
 while:
 cmp $0, %ECX
 je end_while
-mul %EBX
+
+add %EAX, %EBX
+xchg %EBX, %EAX
+
 dec %ECX
 jmp while
-
 end_while:
+
 nop
